@@ -7,7 +7,7 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "24330005"))
     API_HASH = os.getenv("API_HASH", "f7b37cb26bd04ab9e43f57ac269288e3")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5677997796:AAEVazI6f2F77Y4C4L1NTXuoQ8NDxScmVcM")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5677997796:AAGAAbLeEKzKLnuerTTG_phdxXkSgriwRdw")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisksearchbotv2")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOG0BuxGPzkhdz6nU1lLfH27hhSyWdLgjPJ1SWWk3Avxu62H5OFEou8NCsYahg_X-1XeEmxDLcd3GyP5JZP4htAvkJK-Grr4Zr6FXaAjxHF7EozIvmDwkbdxh1JcuP3LHol-N5pj7zUrI82kMRTtdT9NsT43jTT4lAlN4M-M7-7Vvy9iphh0rBQd9OKa32_UB9RSlY1mr0xGsMKSse5frrSw0KVSvu7pgtpyeJwFD8bGYRPBRjeRvbItvqyiiXBfArjMcxvDza_8CBYtCpJoPacVNoJMms7UUsUaG7j77WND-y06CFE8fOVi4hyVPYi0uIka5SmEaD5eJ-__WYnj-Yq-uKG4=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001893892318")) 
